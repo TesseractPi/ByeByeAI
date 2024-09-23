@@ -1,0 +1,98 @@
+body {
+    color: #ffffff;
+    background-color: #000000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-position-y: top;
+    min-width: 480px;
+}
+
+::selection {
+    background: #c00;
+    color: #fff;
+}
+
+h1 {
+    font-size: 37px;
+    text-align: center;
+    margin: 0px;
+    margin-left: -32px;
+}
+
+.mainBox {
+    padding: 0px;
+}
+
+a {
+    color: #fff;
+}
+
+p {
+    font-size: 14px;
+}
+
+.navbar {
+    overflow: visible;
+    background-color: #333;
+    margin: 0px;
+    margin-right: -32px;
+    position: static;
+    border-radius: 37px;
+    z-index: 3;
+    width: 0px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    cursor: pointer;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    border-radius: 69px;
+}
+
+.navbar a.active {
+    background-color: #ee1000;
+    color: #fff;
+}
+
+.navbar a:hover {
+    border: 1px red;
+}
+
+button {
+    margin-left: -3px;
+    border-radius: 37px;
+    padding: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: inherit;
+    border: none;
+    background-color: #c0c0c0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+select, input {
+    margin-right: 0px;
+    border-radius: 37px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 6px;
+    font-size: 14px;
+    font-family: inherit;
+    border: none;
+    background-color: #c0c0c0;
+}
+
+.Skibidi {
+    width: 50%;
+}
+
+#copyright {
+    text-align: center;
+}
